@@ -1,9 +1,9 @@
 require 'pry'
 
 class Hash
-  def keys_of(arguments)
+  def keys_of(hash)
     animal_array = []
-    :animals.collect do :animals(value)
+    hash.each do |animal_key, country_value|
       animal_array << :animals(value)
 
   end
